@@ -214,6 +214,9 @@ const handleRegister = async () => {
       
       // 切换到登录页
       currentTab.value = 'login'
+         
+
+
       
       // 自动填充登录表单
       loginForm.value.username = data.data?.username || ''
